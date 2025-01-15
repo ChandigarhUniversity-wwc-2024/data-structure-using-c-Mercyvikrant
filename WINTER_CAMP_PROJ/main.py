@@ -14,7 +14,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 app = Flask(__name__)
 
-data = pd.read_csv("C:\\Users\\Vikrant sinha\\Downloads\\student_performance.csv")  # Replace with the correct path
+data = pd.read_csv("C:Downloads\\student_performance.csv")  # Replace with the correct path
 X = data[["sem1_gpa", "sem2_gpa", "attendance", "assignments_completed"]]
 y = data["predicted_gpa"]
 
